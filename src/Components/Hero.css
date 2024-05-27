@@ -1,0 +1,152 @@
+/* .hero {
+  background-color: var(--overlay);
+  color: #fff;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.hero:before {
+  content: "";
+  background: url("../images/hero.jpg") no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.data {
+  color: white;
+  margin: 20px;
+}
+
+.hero .content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1100px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.hero .content p:first-child {
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+.hero .content p:nth-child(2) {
+  font-size: 1.9rem;
+}
+
+.hero .content p:nth-child(3) {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.hero .content p:nth-child(4) {
+  font-size: 2.2rem;
+  font-style: italic;
+}
+
+.hero .button {
+  margin: 1rem 0;
+  width: 300px;
+  background-color: #002196;
+  border: 1px solid #001974;
+  color: #ffffff;
+}
+
+.hero .button:hover {
+  background-color: #002196;
+  border: 1px solid #001974;
+}
+
+@media screen and (max-width: 940px) {
+  .hero .content p:nth-child(3) {
+    font-size: 2.6rem;
+  }
+
+  .hero .content p:nth-child(4) {
+    font-size: 1.6rem;
+  }
+}
+
+.section {
+  height: 100vh;
+  width: 100%;
+}
+
+.row {
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) * -0.5);
+  margin-left: calc(var(--bs-gutter-x) * -0.5);
+  position: relative;
+  bottom: 0vh;
+  width: 100%;
+}
+
+.wpo-features-item {
+  overflow: hidden;
+  position: relative;
+  padding: 30px 50px;
+  background-color: #f1f1f1;
+  box-shadow: 0 5px 15px 0 rgba(62, 65, 159, 0.1);
+  z-index: 1;
+  margin-bottom: 30px;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 10px 20px #474747;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.wpo-features-item:hover {
+  transform: scale(1.1);
+}
+
+.wpo-features-item .wpo-features-icon {
+  float: left;
+  margin-right: 30px;
+}
+
+.wpo-features-item .wpo-features-text h2 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Muli;
+}
+
+.wpo-features-item .wpo-features-text p {
+  margin-bottom: 0;
+}
+
+.wpo-features-text {
+  display: grid;
+  place-items: center;
+}
+
+.icon {
+  height: 32px;
+  width: 35px;
+  color: #4f5abb;
+}
+
+.para {
+  font-size: 16px;
+  color: #687693;
+  line-height: 1.8em;
+}
+
+.features-item .visible-icon {
+  position: absolute;
+  right: -15px;
+  bottom: -10px;
+  z-index: -1;
+} */

@@ -1,0 +1,24 @@
+:root {
+  background-color: #fff;
+}
+
+body {
+  background-color: #fff;
+}
+
+h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(59 130 246);
+}
+
+h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
